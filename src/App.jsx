@@ -14,6 +14,13 @@ function App() {
     <>
       <div>
         <h1>covid</h1>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Routes path="ermesek" element={<Ermesek />}  />
+          <Routes path="mermesek" element={<Mermesek />}  />
+
+
+        </Routes>
       </div>
       
     
