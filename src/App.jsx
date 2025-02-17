@@ -14,6 +14,7 @@ function App() {
     <>
       <div>
         <h1>covid</h1>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Routes path="ermesek" element={<Ermesek />}  />
